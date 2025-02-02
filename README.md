@@ -4,6 +4,7 @@ Overview
 
 This project visualizes the trends of COVID-19 cases across multiple countries using Python's Matplotlib library. The script plots the number of cases over time for different countries and presents them in a multi-plot format.
 
+
 Features
 
 Uses Matplotlib for data visualization.
@@ -14,11 +15,13 @@ Plots include grid lines and data markers for better readability.
 
 Provides clear titles and date labels for each subplot.
 
+
 Installation
 
 To run this script, ensure you have Python installed along with the required dependencies.
 
 pip install numpy matplotlib
+
 
 Usage
 
@@ -29,6 +32,7 @@ Run the script using:
 python covid_chart.py
 
 The chart will be displayed with multiple subplots, each representing a different country.
+
 
 Code Explanation
 
@@ -43,6 +47,7 @@ plt.xticks() ensures proper date labeling.
 plt.grid() enhances readability with dashed grid lines.
 
 plt.suptitle() provides an overall title for the visualization.
+
 
 Output
 
@@ -64,17 +69,24 @@ France
 
 Czechia
 
+
 Contribution
 
 Feel free to fork this repository, make improvements, and submit a pull request. Any contributions to improve data accuracy or visualization are welcome!
+
 
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+
 Author
 
-[Chathura Hasanga][https://github.com/ChathuraHasanga][chathurahasanga074@gmail.com]
+[Chathura Hasanga][https://github.com/ChathuraHasanga]
+
+
+Source: https://data.who.int/dashboards/covid19/cases?n=c
+
 
 ![Figure_1](https://github.com/user-attachments/assets/e39178ab-c1b2-432a-a38b-81849808bd95)
 
